@@ -1,5 +1,5 @@
 {% set name = "ryp" %}
-{% set version = "0.1.0" %}
+{% set version = "0.2.0" %}
 
 package:
   name: {{ name|lower }}
@@ -7,12 +7,12 @@ package:
 
 source:
   url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/ryp-{{ version }}.tar.gz
-  sha256: d120624eee2074e6b6df4b51cbd40394861c921000c0e43d973fd62c81436ebf
+  sha256: f3397f9226fc3f47362965bbd7745e9c8aafe57bdb1db1feda9c17f81497308c
 
 build:
   noarch: python
   script: {{ PYTHON }} -m pip install . -vv --no-deps --no-build-isolation
-  number: 2
+  number: 0
 
 requirements:
   host:
