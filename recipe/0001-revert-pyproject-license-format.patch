@@ -1,0 +1,11 @@
+--- pyproject.toml.old	2025-05-28 01:58:39.282803500 -0400
++++ pyproject.toml	2025-05-28 01:59:10.305748500 -0400
+@@ -10,7 +10,7 @@
+ authors = [{name = "Michael Wainberg", email = "m.wainberg@utoronto.ca"}]
+ description = "R inside Python"
+ readme = "README.md"
+-license = "MIT"
++license = { text = "MIT" }
+ keywords = ["R", "rpy2", "reticulate", "tidyverse", "ggplot", "ggplot2", "arrow"]
+ classifiers = [
+   "Intended Audience :: Developers",
