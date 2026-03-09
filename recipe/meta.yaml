@@ -1,5 +1,5 @@
 {% set name = "ryp" %}
-{% set version = "0.2.0" %}
+{% set version = "0.3.0" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/ryp-{{ version }}.tar.gz
-  sha256: f3397f9226fc3f47362965bbd7745e9c8aafe57bdb1db1feda9c17f81497308c
+  sha256: 8236e056c14f93f556da80b1599bed836ac2427d984010a2bac82e7a3a9b2e9e
   patches:
     - 0001-revert-pyproject-license-format.patch
 
